@@ -1,0 +1,25 @@
+#nav-container{
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+    border: 2px solid green;
+}
+#nav-container> a{
+    margin: 0px 20px;
+    text-decoration: none;
+    color: black;
+}
+#signup-form-div{
+ margin-top: 30px;
+}
+#signup-form-div > form{
+    display: grid;
+    grid-template-columns: repeat(1, fr);
+    border: 2px solid red;
+    width: 40%;
+    margin: auto;
+}
+#signup-form-div > form > input{
+    margin: 20px;
+    padding: 10px;
+}

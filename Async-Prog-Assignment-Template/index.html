@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link rel="stylesheet" href="styles/index.css">
+    </head>
+
+    <body>
+        <div id="nav-container">
+            <a href="#">Home</a>
+            <a href="login.html">Login</a>
+            <a href="signup.html">Signup</a>
+        </div>
+      
+        <div id="slideshow">
+            <!--Show Slideshow here-->
+            <div class="slide">
+                <img src="https://wallpapercave.com/wp/wp6568154.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="https://pbblogassets.s3.amazonaws.com/uploads/2015/08/matrix-header-560x327.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="https://www.gujaratheadline.com/wp-content/uploads/2014/12/PK-Poster-4.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="https://images-na.ssl-images-amazon.com/images/S/pv-target-images/2ce5957cb362629699a27b2ca4aa12bc29ad8090a106185d089395c7ff1a6514._RI_.jpg" alt="">
+            </div>
+            <span class="arrow prev" onclick="slider(-1)">&#10094;</span>
+            <span class="arrow next" onclick="slider(1)">&#10095;</span>
+            
+        </div>
+
+        <div id="sort-buttons">
+
+            <!--Add sorting here-->
+        </div>
+
+          <div id="sortInput">
+              <button value="lowToHigh" id="sort-lh" >Sort by low rating to high</button>
+              <button value="HighToLow" id="sort-hl">Sort by High rating to low</button>
+          </div>
+        <div id="movies">
+            <!--Show list of movies here-->
+        
+        </div>
+    </body>
+    <script src="./scripts/index.js"></script>
+
+</html>
